@@ -18,11 +18,7 @@
     "clearMocks": true
   },
   "dependencies": {
-    "@actions/core": "^1.2.6",
-    "@actions/github": "^4.0.0",
-    "@eturino/ts-parse-boolean": "^1.1.2",
-    "pino": "^6.8.0",
-    "semver": "^7.3.4"
+    "pino": "^6.8.0"
   },
   "devDependencies": {
     "@vercel/ncc": "^0.26.1",
