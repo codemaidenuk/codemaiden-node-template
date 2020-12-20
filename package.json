@@ -9,9 +9,9 @@
   "private": true,
   "scripts": {
     "build": "echo Not Implemented",
+    "commit": "yarn lint && (yarn test && echo Ready to commit!) || echo Your build is not ready to commit.",
     "lint": "eslint . --fix",
     "lint-nofix": "eslint .",
-    "prepare": "yarn lint && yarn test",
     "test": "jest"
   },
   "jest": {
